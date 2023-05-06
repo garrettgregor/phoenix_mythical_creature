@@ -46,4 +46,8 @@ class Phoenix
     end
   end
 
+  def follows_pharaoh(pharaoh)
+    @pharaoh = pharaoh
+  end
+
 end
