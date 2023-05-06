@@ -24,11 +24,6 @@ class Phoenix
     if @emotional_awareness[emotion] == 5
       initialize(@name)
     end
-    # if @emotional_awareness[emotion] == 3
-    #   @tear = true
-    # else
-    #   @tear = false
-    # end
   end
 
   def releases_tear?
